@@ -1,0 +1,116 @@
+
+html {
+    margin: 0;
+    line-height: 100%;
+    border: 0;
+    padding: 0;
+    background-color:#4b1919;
+ }
+ 
+ body {
+    width: 100%
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 100vh;
+ }
+
+div{
+    margin-top: 0;
+    text-align: left;
+}
+
+.nav-bar{
+    background-color: #fa3232;    
+    display: flex;
+    width: 100%;
+    position: sticky;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    height: 100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.link{
+    font-family: "Manrope";
+    font-weight: bolder;
+    font-size: 40px;
+    color:#222222;
+    padding: 50px 0 0 0;
+}
+
+.headings{
+    color: #eeeeee;
+    font-family: "Manrope";
+    font-weight: bolder;
+    margin-left: 5%;
+    text-shadow: 0 0 4px #222222;
+}
+
+.subtext{
+    color: #eeeeee;
+    font-family: "Manrope";
+    margin-left: 5%;
+}
+
+input{
+    display: block;
+    width: 100px;
+    height: 12px;
+    padding: 10px 30px;
+    border: 2px solid #eeeeee;
+    border-radius: 24px;
+    background-color: #7d1919;
+    color: #eeeeee;
+    margin: 10px 0;
+    margin-left: 5%;
+}
+
+.btn {
+    border: 2px solid #eeeeee;
+    color: #222222;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #fa3232;
+    margin-left: 5%;
+}
+
+#webhead {
+    height: 400px;
+    width: 600px;
+    margin-left: 5%;
+    background-image: url("web.jpg");
+    background-size: cover;
+}
+
+#webhead:hover {
+    background-image: url("spidey.webp");
+    background-size: cover;
+
+}
+
+table{
+    color: #eeeeee;
+    font-family: "Manrope";
+    margin-left: 5%;
+}
+
+th{
+    font-weight: bold;
+    background-color: #fa3232;
+    color: #222222;
+}
+
+tr {
+    background-color: #7d1919;
+}
+
+td, th {
+    padding: 10px 20px;
+}
