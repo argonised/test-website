@@ -21,21 +21,34 @@ div{
 }
 
 .nav-bar{
-    background-color: #fa3232;    
     display: flex;
     width: 100%;
     position: sticky;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
-    text-decoration: none;
-    height: 100px;
-    list-style-type: none;
     margin: 0;
     padding: 0;
     
 }
+.nav-item{
+    background-color: #fa3232;
+    text-decoration: none;
+    line-height: 100px;
+    width:25%;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #eeeeee; 
+    display:inline-block;
+    text-align: center;
+}
 
+.nav-item:hover{
+    background-color: #7d1919;    
+    color: #eeeeee;
+    
+}
 .link{
     font-family: "Manrope";
     font-weight: bolder;
@@ -48,14 +61,12 @@ div{
     color: #eeeeee;
     font-family: "Manrope";
     font-weight: bolder;
-    margin-left: 5%;
     text-shadow: 0 0 4px #222222;
 }
 
 .subtext{
     color: #eeeeee;
     font-family: "Manrope";
-    margin-left: 5%;
 }
 
 input{
@@ -68,7 +79,6 @@ input{
     background-color: #7d1919;
     color: #eeeeee;
     margin: 10px 0;
-    margin-left: 5%;
 }
 
 .btn {
@@ -78,13 +88,11 @@ input{
     border-radius: 20px;
     padding: 10px 20px;
     background-color: #fa3232;
-    margin-left: 5%;
 }
 
 #webhead {
     height: 400px;
     width: 600px;
-    margin-left: 5%;
     background-image: url("web.jpg");
     background-size: cover;
 }
@@ -98,7 +106,6 @@ input{
 table{
     color: #eeeeee;
     font-family: "Manrope";
-    margin-left: 5%;
 }
 
 th{
@@ -113,4 +120,42 @@ tr {
 
 td, th {
     padding: 10px 20px;
+}
+
+.colour-section{
+    width: 25%;
+    height: 10%;
+    border: 5px solid #eeeeee;
+    color:#eeeeee;
+    font-size: 20px;
+    font-family: "Manrope";
+    font-weight: bolder;
+    padding: 5px;
+    margin:10px 0;
+}
+
+#background{
+    background-color: #4b1919;
+    text-align: center;
+}
+
+#normal-text, #input-text, #borders {
+    background-color: #eeeeee;
+    text-align: center;
+    color:#4b1919
+}
+
+#buttons{
+    background-color: #fa3232;
+    text-align: center;
+}
+
+#button-text{
+    background-color: #222222;
+    text-align: center;
+}
+
+#inputs{
+    background-color: #7d1919;
+    text-align: center;
 }
