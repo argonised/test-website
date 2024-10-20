@@ -83,7 +83,7 @@ input{
     margin: 10px 0;
 }
 
-.btn {
+#btn-exc {
     border: 2px solid #eeeeee;
     color: #222222;
     font-weight: bold;
