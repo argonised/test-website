@@ -1,7 +1,13 @@
 let moddedText = "let's go!"
+let inputEl = document.getElementById("text-input")
  function addExc() {
     moddedText = moddedText + "!"
     document.getElementById("btn-exc").textContent = moddedText
+}
+function buttonText() {
+    let capturedText = inputEl.value
+    inputEl.textContent = ""
+    document.getElementById("btn-exc").textContent = capturedText
 }
 
 let homeScore = 0
